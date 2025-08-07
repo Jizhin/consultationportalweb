@@ -1,0 +1,33 @@
+.prescriptions-page {
+  padding: 60px 0;
+  background: #f9fcff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.prescriptions-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 0 40px;
+}
+
+.prescription-card {
+  background: white;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.prescription-card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.prescription-card a {
+  color: #3498db;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 8px;
+}

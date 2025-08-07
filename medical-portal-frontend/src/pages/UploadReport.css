@@ -1,0 +1,50 @@
+.report-upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: linear-gradient(to right, #f1f2b5, #135058);
+}
+
+.report-form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.report-form h2 {
+  color: #135058;
+  margin-bottom: 20px;
+}
+
+.report-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.report-form button {
+  padding: 12px 24px;
+  background: #135058;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.report-form button:hover {
+  background: #0c3e46;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}

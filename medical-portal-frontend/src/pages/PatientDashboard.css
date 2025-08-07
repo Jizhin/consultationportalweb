@@ -1,0 +1,48 @@
+.patient-dashboard {
+  min-height: 100vh;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-card h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.profile-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.quick-links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quick-links a {
+  padding: 12px 18px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.quick-links a:hover {
+  background-color: #217dbb;
+}

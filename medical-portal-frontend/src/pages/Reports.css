@@ -1,0 +1,27 @@
+.report-list-container {
+  background: #f6f8fa;
+  min-height: 100vh;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.report-list-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.report-list {
+  list-style: none;
+  padding: 0;
+}
+
+.report-list li {
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}

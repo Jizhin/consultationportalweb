@@ -1,0 +1,91 @@
+/* Container styling to center the form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height to ensure it takes up the full viewport height */
+    width: 100%;
+    background: #f0f2f5; /* Light gray background for the full page */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box; /* Includes padding in the total width */
+}
+
+/* Form styling */
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Limits the form's width for better readability */
+    box-sizing: border-box;
+}
+
+.login-form h2 {
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+/* Input field styling */
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Button styling */
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.login-form button:active {
+    transform: translateY(0);
+}
+
+/* Link/text styling for registration */
+.login-form p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.login-form p span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.login-form p span:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.navbar {
+  background: #2575fc;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-links a,
+.navbar-links button {
+  margin-left: 15px;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.navbar-links a:hover,
+.navbar-links button:hover {
+  opacity: 0.8;
+}
